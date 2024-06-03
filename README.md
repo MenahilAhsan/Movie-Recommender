@@ -4,26 +4,44 @@ The movie recommendation system is designed to suggest movies to users based on 
 
 Dataset
 The project uses two datasets:
+
 ratings.csv: Contains user ratings for movies.
+
 Columns: userId, movieId, rating, timestamp
+
 movies.csv: Contains metadata for movies.
+
 Columns: movieId, title, genres
+
+
 Installation
 To run this project, you'll need to have Python installed along with the following libraries:
 1.	pandas
 2.	numpy
 3.	scikit-learn
 4.	matplotlib
+
+
 Usage
+
 Prepare the Data:
+
 Load and preprocess the data from CSV files.
+
 Train the KNN Model:
+
 Define and fit the KNN model using cosine similarity.
+
 Recommendation Engine:
+
 Implement the recommendation engine function.
+
 Generate Recommendations:
+
 Use the recommendation engine to generate movie recommendations.
+
 Code Explanation
+
 Data Loading and Preprocessing:
 Load user ratings and movie metadata, merge them, and create a user-item matrix where rows represent users, columns represent movies, and cells contain ratings.
 Model Definition and Training:

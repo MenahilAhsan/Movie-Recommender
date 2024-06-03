@@ -43,11 +43,18 @@ Use the recommendation engine to generate movie recommendations.
 Code Explanation
 
 Data Loading and Preprocessing:
+
 Load user ratings and movie metadata, merge them, and create a user-item matrix where rows represent users, columns represent movies, and cells contain ratings.
+
 Model Definition and Training:
+
 Define a KNN model using cosine similarity and fit it to the user-item matrix.
+
 Recommendation Engine:
+
 Implement a function that takes a movie name as input, finds its nearest neighbors using the trained KNN model, and returns a list of recommended movies.
 
+
 License
+
 This project is licensed under the MIT License.
